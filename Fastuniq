@@ -5,3 +5,5 @@ for i in $(seq 43 47); do /home/minerva/Documents/Software/FastUniq/source/fastu
 ```
 
 code Trimmomatic- seq. adaptors removing 
+
+![ph](https://github.com/orarg/population-genomic/blob/main/Slides/Screenshot%202024-03-18%20145912.png)
