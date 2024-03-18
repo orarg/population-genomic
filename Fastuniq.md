@@ -22,4 +22,4 @@ code- fastqc Illumina reades quality (confirm that trimmomatic removed the adapt
 for i in $(seq 43 47); do fastqc ~/Documents/Tutorial1+2/Output/WGS/Trimmomatic/trim_${i}*.fastq.gz; done
 ```
 
-*= ignor the rest of the file name after the *.
+*= ignor the rest of the file name after the *. (P=paird , U= unpaird)
