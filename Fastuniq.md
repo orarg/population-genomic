@@ -99,3 +99,27 @@ frequent allel count or frequency usage will be depending on what we want to tes
 How many ants I have will set some of the bounderies of my analysis parameters.
 
 
+
+*Working with graphs*
+
+ggplot work with data frame, we need to have it defined as the type of the data which is correct.
+
+When we make the plot we have to think what we do.
+
+We need to combine the data, for that we need to check the data was not massed.
+ R might be less god for that than excel.
+
+ CchatGPT --> ask him "how do I plot this data in a violine shape...?"
+
+ "jitter" option give the points of the data on a graph.
+
+ Make sure to fit the way data visualized to the output you want the reader to get from it:
+
+
+
+ https://www.nature.com/articles/s41467-020-19160-7
+
+https://www.nature.com/articles/nmeth0910-665
+
+
+
