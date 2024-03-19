@@ -142,5 +142,20 @@ Which new files are created? Hint: ls command
 
 ```
 
+The old file should be replaced with a sorted file:
+
+```
+cp <sorted-file-name> <file-name>
+```
+
+Run plink to analyse the data:
+
+```
+   plink   --file     <grapes_catalogue>    --pca   --out   grapes_pca
+```
+
+
+
+
 
 
