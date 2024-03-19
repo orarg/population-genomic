@@ -27,6 +27,10 @@ for i in $(seq 43 47); do fastqc ~/Documents/Tutorial1+2/Output/WGS/Trimmomatic/
 
 *Working with VCF file*
 
+The VCF ia a huge table.
+
+![](https://github.com/orarg/population-genomic/blob/main/Slides/Screenshot%202024-03-19%20145537.png)
+
 We want to sort and edit vcf files according to our needs.
 
 In this case we look to take out the missing date from the sampled individuals:
