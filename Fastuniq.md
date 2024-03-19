@@ -77,7 +77,8 @@ We will also remove loci that have too high depth. These are indicative of error
 --vcf input file
 --site-mean-depth flag to get the mean depth per site
 --out output file
-``
+```
+
   ADD GRAPH FROM THE 
 
 Filtering the depht of coverage, 30 is alot we usualy want to go for 20.
