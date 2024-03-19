@@ -63,7 +63,34 @@ We should plot the data and see what is the data looks like to make a deccision 
 The plot of the data:
 
 
-
+ADD HERE PRINTSCREEN OF PLOT
 
 
 Last column in the VCF is the "%_of_Missing"
+
+What is the SNPs depht per site:
+
+```
+We will also remove loci that have too high depth. These are indicative of errors in assembly of the reference, where duplicated regions might be misassembled. To do this we will plot the site mean depth:
+~/Documents/Software/vcftools_0.1.13/bin/vcftools --vcf ~/Documents/Tutorial1+2/Output/RAD/VCFTools/removedIndv.recode.vcf --site-mean-depth --out ~/Documents/Tutorial1+2/Output/RAD/VCFTools/SiteMeanDepth
+
+--vcf input file
+--site-mean-depth flag to get the mean depth per site
+--out output file
+``
+  ADD GRAPH FROM THE 
+
+Filtering the depht of coverage, 30 is alot we usualy want to go for 20.
+
+It will keep the genotype call for ants with 30 and abouve reads in our case.
+
+
+Some info about the parameters of the VCF:
+
+ --max-missing, how much do I **allow** for a missing SNP (confusing meaning of the parameter name)
+
+frequent allel count or frequency usage will be depending on what we want to test.
+
+How many ants I have will set some of the bounderies of my analysis parameters.
+
+
