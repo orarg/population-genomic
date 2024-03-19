@@ -115,7 +115,7 @@ We need to combine the data, for that we need to check the data was not massed.
 
  Make sure to fit the way data visualized to the output you want the reader to get from it:
 
-
+![](https://github.com/orarg/population-genomic/blob/main/Slides/20240319_152000.jpg)
 
  https://www.nature.com/articles/s41467-020-19160-7
 
