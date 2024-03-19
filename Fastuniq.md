@@ -123,7 +123,24 @@ https://www.nature.com/articles/nmeth0910-665
 
 Using a 3D figure add either rotating figure or add axis that will help (diagonal in a box).
 
+*Plot Data Into PCA Graph*
 
+We work on grapes data. The catalog include modern strains of grapes acrose the world.
+
+Plink will be used to analyse the data.
+
+```
+In the tutorial folder there is a zipped .vcf file grapes_catalogue.vcf.gz
+Convert grape_catalogue.vcf.gz to .ped format required by plink 
+vcftools software is able to convert between the two formats
+
+
+
+vcftools --gzvcf <vcf-file.gz> --plink  --out grapes_catalogue
+
+Which new files are created? Hint: ls command
+
+```
 
 
 
