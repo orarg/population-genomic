@@ -121,5 +121,9 @@ We need to combine the data, for that we need to check the data was not massed.
 
 https://www.nature.com/articles/nmeth0910-665
 
+Using a 3D figure add either rotating figure or add axis that will help (diagonal in a box).
+
+
+
 
 
