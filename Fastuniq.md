@@ -67,8 +67,8 @@ We should plot the data and see what is the data looks like to make a deccision 
 The plot of the data:
 
 
-ADD HERE PRINTSCREEN OF PLOT
-
+![](https://github.com/orarg/population-genomic/blob/main/Slides/Screenshot%202024-03-19%20145523.png)
+![](https://github.com/orarg/population-genomic/blob/main/Slides/Screenshot%202024-03-19%20145912.png)
 
 Last column in the VCF is the "%_of_Missing"
 
