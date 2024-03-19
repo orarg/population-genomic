@@ -23,3 +23,47 @@ for i in $(seq 43 47); do fastqc ~/Documents/Tutorial1+2/Output/WGS/Trimmomatic/
 ```
 
 *= ignor the rest of the file name after the *. (P=paird , U= unpaird)
+
+
+*Working with VCF file*
+
+We want to sort and edit vcf files according to our needs.
+
+In this case we look to take out the missing date from the sampled individuals:
+
+```
+~/Documents/Software/vcftools_0.1.13/bin/vcftools --vcf ~/Documents/Tutorial1+2/RawData/RAD/vcf_filt.recode.vcf --missing-indv --out ~/Documents/Tutorial1+2/Output/RAD/VCFTools/MissingIndv
+
+--vcf input file
+--missing-indv flag
+--out 
+```
+
+After finding the missing data we want to sort the indeviduals which are missing data:
+
+```
+sort -k 4 -n MissingIndv.imiss > MissingIndvSorted.imiss
+```
+
+We put this file back to VCF tool and we ask the tool to take out the indeviduals with missing data:
+
+```
+/Documents/Software/vcftools_0.1.13/bin/vcftools --vcf ~/Documents/Tutorial1+2/RawData/RAD/vcf_filt.recode.vcf --remove-indv ~/Documents/Tutorial1+2/RequieredFiles/missingSamples.txt --recode --out ~/Documents/Tutorial1+2/Output/RAD/VCFTools/removedIndv
+
+--vcf input filename
+--remove-indv sample list or individual sample ID
+--recode flag to get a vcf output
+--out output filename
+```
+
+In our case of the data the best indevidual missing the 30% of the SNPs, the worste one is missint 97%. 
+
+We should plot the data and see what is the data looks like to make a deccision on my sampling.
+
+The plot of the data:
+
+
+
+
+
+Last column in the VCF is the "%_of_Missing"
