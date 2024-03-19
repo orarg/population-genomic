@@ -69,7 +69,6 @@ The plot of the data:
 
 ![](https://github.com/orarg/population-genomic/blob/main/Slides/Screenshot%202024-03-19%20145523.png)
 
-![](https://github.com/orarg/population-genomic/blob/main/Slides/Screenshot%202024-03-18%20145912.png)
 
 Last column in the VCF is the "%_of_Missing"
 
