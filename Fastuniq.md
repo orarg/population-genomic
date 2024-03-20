@@ -154,6 +154,26 @@ Run plink to analyse the data:
    plink   --file     <grapes_catalogue>    --pca   --out   grapes_pca
 ```
 
+GAPIT - milty locus linear regration tool (smarter and complicated analysis).
+
+Make sence beacuse the locuses are not fully independent. 
+
+Not a easy tool.
+
+This tutorial will focus on a tool which is easier, because the signal for grape colors it is strong we will see the results even with a simpler tool.
+
+Pnina gave the color code for each number - traits of colors.
+
+Kinship done with BEAGLE.
+IBS segment - segments which are identical by decentense.
+large pices that are keept despite the recombination.
+BEAGLE knows to look for it and give a kinship stats.
+
+Tassel needs aditional format changes to the results from STRACTURE.
+
+Q1 Q2 Q3 the proportion of each genome going to one of the clusters (file header, traite row).
+
+
 
 
 
